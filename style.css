@@ -1,0 +1,80 @@
+div{
+    display: block;
+}
+
+.barra1, .barra2, .barra3, .barra4, .barra5{
+    width: 500px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 100px;
+    margin: 5px auto;
+    padding: 3px;
+}
+
+.p10, .p25, .p50, .p75, .p90{
+    width: 485px;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    
+}
+
+.p10{
+    background: linear-gradient( 90deg, red, white);
+    background-size: 48px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.p10>span{
+    display:block;
+    margin: 3px 24px;
+}
+
+.p25{
+    background: linear-gradient( 90deg, orange, white);
+    background-size: 121px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.p25>span{
+    display:block;
+    margin: 3px 58px;
+}
+
+.p50{
+    background: linear-gradient( 90deg, yellow, white);
+    background-size: 242px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.p50>span{
+    display:block;
+    margin: 3px 121px;
+}
+
+.p75{
+    background: linear-gradient( 90deg, yellowgreen, white);
+    background-size: 363px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.p75>span{
+    display:block;
+    margin: 3px 242px;
+}
+
+.p90{
+    background: linear-gradient( 90deg, green, white);
+}
+
+.p90>span{
+    display:block;
+    margin: 3px 420px;
+}
